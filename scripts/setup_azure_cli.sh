@@ -8,7 +8,7 @@ fi
 
 # install base set of tools
 sudo apt-get update
-sudo apt-get install curl apt-transport-https lsb-release gnupg`
+sudo apt-get install curl apt-transport-https lsb-release gnupg
 
 # install microsoft apt repo key
 curl -sL https://packages.microsoft.com/keys/microsoft.asc | \
